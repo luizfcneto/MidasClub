@@ -1,5 +1,33 @@
 header{
 	background-color: #363636;
+
+}
+
+ul{
+	list-style-type: none; 
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+li .linkNav{
+	float: left;	
+}
+
+.linkNav{
+	margin-left: 15px;
+	display: inline-block;
+	color: white;
+	padding: 14px 80px;
+	text-decoration: none;
+}
+
+li .linkNav:hover{
+	background-color: #4F4F4F;
 }
 
 body{
@@ -7,64 +35,27 @@ body{
 
 }
 
-nav{
-	text-align: center;
+footer{
+	background-color: #363636;
+	padding-top: 1px;
 }
 
-.navegacao{
-	background-color: black;
+footer ul{
+	margin-left: 530px;
+	margin-right: 580px;
+	display: flex;
 }
 
-a{
-	text-decoration: none;
-	color: white;
+footer ul li{
+	margin:auto;
 }
 
-h1{
-	margin-left: 20px;
-}
-
-p{
-	margin-left: 40px;
-}
-
-aside{
-	text-align: right;
-}
-
-.propaganda{
-	background-color: #4F4F4F;
-}
-
-#pfooter{	
-	text-align: center;
-	color: white;
-	padding-bottom: 5px;
-
-}
-
-#imgheader{
-	width: 60px;
-	height: 60px;
-}
-
-/*.propaganda{
-	width: 350;
-	height: 150;
-}
-*/
-li{
-	list-style-type: none;
-}
-
-.footerimg{
-	margin-right: 10px;
-	margin-left: 10px;
+.footerImg{
 	width: 30px;
 	height: 30px;
 }
 
-footer{
-	background-color: #363636;
-	padding-top: 1px;
+footer p{
+	color: white;
+	text-align: center;
 }
