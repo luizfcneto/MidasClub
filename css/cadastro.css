@@ -1,6 +1,5 @@
 header{
 	background-color: #363636;
-
 }
 
 ul{
@@ -15,24 +14,23 @@ nav ul{
 }
 
 li .linkNav{
-	float: left;	
+	float: left;
 }
 
 .linkNav{
 	margin-left: 15px;
-	display: inline-block;
 	color: white;
 	padding: 14px 80px;
 	text-decoration: none;
 }
 
 li .linkNav:hover{
-	background-color: #4F4F4F;
+	list-style-type: none; 
+	background-color: #DAA520;
 }
 
 body{
 	background-color: #EEE9E9;
-
 }
 
 footer{

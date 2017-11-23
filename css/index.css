@@ -1,0 +1,47 @@
+header{
+	background-color: #363636;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #DAA520;
+}
+
+.btn-outline-warning{
+	color: #DAA520;
+	border-color: #DAA520;
+}
+
+.btn-outline-warning:hover{
+	background-color: #DAA520;
+}
+
+body{
+	background-color: #EEE9E9;
+
+}
+
+footer{
+	background-color: #363636;
+	padding-top: 1px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+footer ul li{
+	list-style-type: none;
+	margin:auto;
+	display: inline-flex;
+}
+
+
+.footerImg{
+	width: 30px;
+	height: 30px;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+}
